@@ -1,0 +1,68 @@
+.all{
+    text-align: center;
+}
+
+body{
+    background-color: #ffff9f;
+}
+
+.num1{
+    position: relative;
+    top: 100px;
+    color: #414141;
+}
+
+.num2, .num3, .num4{
+    display: none;
+}
+
+@media screen and (max-width: 1500px) {
+    body{
+        background-color: #90ce98;
+    }
+
+    .num1, .num3, .num4{
+        display: none;
+    }
+
+    .num2{
+        display: block;
+        position: relative;
+        top: 100px;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body{
+        background-color: #90bace;
+    }
+
+    .num1, .num2, .num4{
+        display: none;
+    }
+
+    .num3{
+        display: block;
+        position: relative;
+        top: 100px;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        background-color: #9290ce;
+    }
+
+    .num1, .num2, .num3{
+        display: none;
+    }
+
+    .num4{
+        display: block;
+        position: relative;
+        top: 100px;
+        color: #FFFFFF;
+    }
+}
